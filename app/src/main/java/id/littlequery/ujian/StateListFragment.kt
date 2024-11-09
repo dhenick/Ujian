@@ -51,10 +51,7 @@ class StateListFragment : Fragment() {
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
-
-                // Sembunyikan ProgressBar jika terjadi kesalahan
-                binding.progressBar.visibility = View.GONE
-                // Bisa juga menampilkan pesan error di sini, misalnya dengan Toast
+         binding.progressBar.visibility = View.GONE
             }
         }
     }
